@@ -7,8 +7,8 @@
 <header class="{{ $featured_image_class }}" style="background-image: url('{{ $featured_image }}');">
   {{ $cover_dimming_class := site.Params.cover_dimming_class | compare.Default "bg-black-60" }}
   <div class="{{ $cover_dimming_class }}">
-    <div class="tc-l pv4 pv6-l ph3 ph4-ns">
-      <h1 class="f2 f-subheadline-l fw2 gold lh-title">
+    <div class="tc pv4 pv6-l ph3 ph4-ns">
+      <h1 class="f1 f-subheadline-l fw6 gold lh-title">
         {{ .Title | compare.Default .Site.Title }}
       </h1>
       {{ with .Params.description }}

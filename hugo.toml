@@ -4,6 +4,8 @@ languageCode = 'de-ch'
 theme = 'ananke'
 
 [params]
+  body_classes = "montserrat bg-near-white"
+  custom_css = ["custom.css"]
   site_logo = "images/site-logo.png"
 
 [[menu.main]]
