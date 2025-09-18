@@ -1,0 +1,32 @@
+title = 'Werkstatt Unterholz'
+baseURL = 'https://werkstatt-unterholz.github.io/website/'
+languageCode = 'de-ch'
+theme = 'ananke'
+
+[params]
+  site_logo = "images/site-logo.png"
+
+[[menu.main]]
+  name = "News"
+  url = "/news/"
+  weight = 2
+
+[[menu.main]]
+  name = "Öffnungszeiten"
+  url = "/kalender/"
+  weight = 3
+
+[[menu.main]]
+  name = "Verein"
+  url = "/verein/"
+  weight = 3
+
+[[menu.main]]
+  name = "Kurse"
+  url = "/kurse/"
+  weight = 4
+
+[[menu.main]]
+  name = "Kontakt"
+  url = "/kontakt/"
+  weight = 5

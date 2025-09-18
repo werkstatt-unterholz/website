@@ -1,0 +1,62 @@
+<form action="https://formspree.io/f/YOUR_UNIQUE_ID" method="POST" class="w-100 center">
+
+  <div class="mb3">
+    <label for="name" class="f6 b db mb2">Name <span class="normal black-60">(erforderlich)</span></label>
+    <input id="name" name="name" type="text" class="input-reset ba b--black-20 pa2 mb2 db w-100" required>
+  </div>
+
+  <div class="mb3">
+    <label for="email" class="f6 b db mb2">Email <span class="normal black-60">(erforderlich)</span></label>
+    <input id="email" name="email" type="email" class="input-reset ba b--black-20 pa2 mb2 db w-100" required>
+  </div>
+
+  <div class="mb3">
+    <label for="message" class="f6 b db mb2">Nachricht <span class="normal black-60">(erforderlich)</span></label>
+    <select id="course" name="course-template" class="input-reset ba b--black-20 pa2 mb2 db w-100">
+      <option value="">Vorlage auswählen...</option>
+      <option value="mitgliedschaft">Mitgliedschaft</option>
+      <option value="öffnungszeiten">Öffnungszeiten</option>
+      <option value="preise">Preise</option>
+      <option value="maschinenkurs">Maschinenkurs</option>
+      <option value="zinken-maschinell">Kurs Zinken maschinell</option>
+      <option value="zinken-manuell">Kurs Zinken von Hand</option>
+      <option value="drechselbank">Kurs Drechselbank</option>
+      <option value="langholz">Kurs Langholz drechseln</option>
+      <option value="querholz">Kurs Querholz drechseln</option>
+    </select>
+    <textarea id="message" name="message" class="input-reset ba b--black-20 pa2 mb2 db w-100" rows="5" required></textarea>
+  </div>
+
+  <div class="tc">
+    <button type="submit" class="f6 grow no-underline br-pill ph3 pv2 mb2 dib white bg-near-black">Senden</button>
+  </div>
+
+</form>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    
+    const courseTemplates = {
+      'mitgliedschaft': 'Hallo, ich möchte Mitglied werden in der Werstatt Unterholz.\n\nIch habe die Informationen auf der entsprechenden Seite gelesen, habe aber noch eine spezifisch Frage:\n\n',
+      'öffnungszeiten': 'Hallo, ich habe die Informationen bezüglich Öffnungszeiten auf der entsprechenden Seite gelesen, habe aber noch eine spezifisch Frage:\n\n',
+      'preise': 'Hallo, ich habe die Informationen bezüglich Kosten auf der entsprechenden Seite gelesen, habe aber noch eine spezifisch Frage:\n\n',
+      'maschinenkurs': 'Hallo, ich interessiere mich für den Maschinenkurs.\n\nWann findet dieser das nächste Mal statt?',
+      'zinken-maschinell': 'Hallo, ich interessiere mich für den Kurs Zinken maschinell.\n\nWann findet dieser das nächste Mal statt?',
+      'zinken-manuell': 'Hallo, ich interessiere mich für den Kurs Zinken von Hand.\n\nWann findet dieser das nächste Mal statt?',
+      'drechselbank': 'Hallo, ich interessiere mich für den Kurs Drechselbank.\n\nWann findet dieser das nächste Mal statt?',
+      'langholz': 'Hallo, ich interessiere mich für den Kurs Langholz drechseln.\n\nWann findet dieser das nächste Mal statt?',
+      'querholz': 'Hallo, ich interessiere mich für den Kurs Querholz drechseln.\n\nWann findet dieser das nächste Mal statt?',
+      '': '' // This clears the message box if they select "Vorlage auswählen..."
+    };
+
+    const courseSelect = document.getElementById('course');
+    const messageTextarea = document.getElementById('message');
+
+    courseSelect.addEventListener('change', function() {
+      const selectedValue = courseSelect.value;
+      messageTextarea.value = courseTemplates[selectedValue] || '';
+      messageTextarea.focus();
+    });
+
+  });
+</script>

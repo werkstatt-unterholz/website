@@ -1,0 +1,27 @@
+<footer class="{{ .Site.Params.background_color_class | compare.Default "bg-black" }} bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between f4 fw4 white-70 pv2 ph3">
+    <div>
+      {{ with .Site.GetPage "impressum.md" }}
+        <a class="white-70 hover-white no-underline" href="{{ .RelPermalink }}">
+          Impressum
+        </a>
+      {{ end }}
+      |
+      {{ with .Site.GetPage "datenschutz.md" }}
+        <a class="white-70 hover-white no-underline" href="{{ .RelPermalink }}">
+          Datenschutzerklärung
+        </a>
+      {{ end }}
+    </div>
+    <div>{{ partials.IncludeCached "social/follow.html" . }}</div>
+    <div>
+      Unterstützt von: 
+      <a href="https://www.schmidhauser-stiftung.ch/">
+        <img src="{{ "/images/schmidhauser.png" | relURL }}">
+      </a>
+      <a href="https://www.einhell.ch/">
+        <img src="{{ "/images/einhell.png" | relURL }}">
+      </a>
+    </div>
+  </div>
+</footer>
