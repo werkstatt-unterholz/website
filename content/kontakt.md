@@ -1,5 +1,6 @@
 ---
 title: "Kontakt"
+type: "page"
 ---
 
 {{< contact >}}

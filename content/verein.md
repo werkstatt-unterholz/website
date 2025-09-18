@@ -1,5 +1,6 @@
 ---
 title: "Verein"
+type: "page"
 ---
 
 Ob du Profi bist oder Laie, dein Wissen weitergeben oder einfach dein Projekt realisieren möchtest,

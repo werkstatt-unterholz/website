@@ -1,5 +1,6 @@
 ---
 title: "Kalender"
+type: "page"
 ---
 
 Hier findest du die nötigen Informationen, um unsere Werkstatt zu besuchen.

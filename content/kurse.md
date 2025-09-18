@@ -1,5 +1,6 @@
 ---
 title: "Kurse"
+type: "page"
 ---
 
 In diesem Bereich findest alle Informationen zu den Kursen, die in der Werkstatt Unterholz stattfinden.
