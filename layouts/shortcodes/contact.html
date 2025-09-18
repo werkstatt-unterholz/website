@@ -1,4 +1,4 @@
-<form action="https://formspree.io/f/YOUR_UNIQUE_ID" method="POST" class="w-100 center">
+<form action="https://formspree.io/f/movnoooz" method="POST" class="w-100 center">
 
   <div class="mb3">
     <label for="name" class="f6 b db mb2">Name <span class="normal black-60">(erforderlich)</span></label>
@@ -12,7 +12,7 @@
 
   <div class="mb3">
     <label for="message" class="f6 b db mb2">Nachricht <span class="normal black-60">(erforderlich)</span></label>
-    <select id="course" name="course-template" class="input-reset ba b--black-20 pa2 mb2 db w-100">
+    <select id="template" name="template" class="input-reset ba b--black-20 pa2 mb2 db w-100">
       <option value="">Vorlage auswählen...</option>
       <option value="mitgliedschaft">Mitgliedschaft</option>
       <option value="öffnungszeiten">Öffnungszeiten</option>
@@ -36,7 +36,7 @@
 <script>
   document.addEventListener('DOMContentLoaded', function() {
     
-    const courseTemplates = {
+    const map = {
       'mitgliedschaft': 'Hallo, ich möchte Mitglied werden in der Werstatt Unterholz.\n\nIch habe die Informationen auf der entsprechenden Seite gelesen, habe aber noch eine spezifisch Frage:\n\n',
       'öffnungszeiten': 'Hallo, ich habe die Informationen bezüglich Öffnungszeiten auf der entsprechenden Seite gelesen, habe aber noch eine spezifisch Frage:\n\n',
       'preise': 'Hallo, ich habe die Informationen bezüglich Kosten auf der entsprechenden Seite gelesen, habe aber noch eine spezifisch Frage:\n\n',
@@ -49,13 +49,12 @@
       '': '' // This clears the message box if they select "Vorlage auswählen..."
     };
 
-    const courseSelect = document.getElementById('course');
-    const messageTextarea = document.getElementById('message');
+    const selection = document.getElementById('template');
+    const textarea = document.getElementById('message');
 
-    courseSelect.addEventListener('change', function() {
-      const selectedValue = courseSelect.value;
-      messageTextarea.value = courseTemplates[selectedValue] || '';
-      messageTextarea.focus();
+    selection.addEventListener('change', function() {
+      textarea.value = map[selection.value] || '';
+      textarea.focus();
     });
 
   });
