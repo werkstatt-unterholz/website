@@ -12,9 +12,14 @@ Bei den [Downloads]({{< ref verein.md >}}) findest du wichtige Dokumente für Mi
 
 # Dein Ort zum Holzwerken
 
-Die Werkstatt Unterholz ist ein Treffpunkt für Leute, die in ihrer Freizeit gerne Holz bearbeiten, aber keine eigene Werkstatt einrichten möchten oder können. Es stehen handgeführte und stationäre Maschinen zur Verfügung sowie übliches Handwerkzeug zur Bearbeitung von Holz. Acht Hobelbänke und ein grosszügiger Metallarbeitsplatz stehen bereit.
+Die Werkstatt Unterholz ist ein Treffpunkt für Leute, die in ihrer Freizeit gerne Holz bearbeiten,
+aber keine eigene Werkstatt einrichten möchten oder können. Es stehen handgeführte und stationäre
+Maschinen zur Verfügung sowie übliches Handwerkzeug zur Bearbeitung von Holz. Acht Hobelbänke und
+ein grosszügiger Metallarbeitsplatz stehen bereit.
 
-Die Werkstatt Unterholz wird als [Verein]({{< ref verein.md >}}) ehrenamtlich geführt und ist Teil vom [machwerk](http://machwerk-winterthur.ch). Externe Kursleiterinnen und Kursleiter können sich zu attraktiven Konditionen einmieten.
+Die Werkstatt Unterholz wird als [Verein]({{< ref verein.md >}}) ehrenamtlich geführt und
+ist Teil vom [machwerk](http://machwerk-winterthur.ch). Externe Kursleiterinnen und Kursleiter
+können sich zu attraktiven Konditionen einmieten.
 
 # Virtueller Rundgang
 
