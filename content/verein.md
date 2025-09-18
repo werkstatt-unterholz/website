@@ -8,9 +8,8 @@ in der Werkstatt Unterholz kannst du dich verwirklichen. Unsere Mitglieder trage
 
 # Mitgliederbeitrag
 
-{{< div class="flex-ns" >}}
-  {{< div class="w-100 w-third-ns ph2-ns mb2" >}}
-    {{< div class="pa3 bg-light-yellow ba b--black-10 h-100" >}}
+{{< flex-container >}}
+  {{< flex-element class="bg-light-yellow" >}}
 
 ### Basis-Mitglied
 
@@ -30,11 +29,8 @@ Während du an deinem Projekt arbeitest, kannst du dieses in den Lagerräumen de
 - Handmaschinen
   CHF 20.- pro Stunde
 
-    {{< /div >}}
-  {{< /div >}}
-
-  {{< div class="w-100 w-third-ns ph2-ns mb2" >}}
-    {{< div class="pa3 bg-yellow ba b--black-10 h-100" >}}
+  {{< /flex-element >}}
+  {{< flex-element class="bg-yellow" >}}
 
 ### Vielnutzer-Mitglied
 
@@ -54,11 +50,8 @@ und die Werkstatt ausserhalb der Öffnungszeiten tagsüber und am Wochenende nut
 **Tagesnutzung ausserhalb der Öffnungszeiten**
 - CHF 10.- pro Tag
 
-    {{< /div >}}
-  {{< /div >}}
-
-  {{< div class="w-100 w-third-ns ph2-ns mb2" >}}
-    {{< div class="pa3 bg-gold ba b--black-10 h-100" >}}
+  {{< /flex-element >}}
+  {{< flex-element class="bg-gold" >}}
 
 ### Team-Mitglied 
 
@@ -78,9 +71,8 @@ Als Mitglied des Vorstands oder des Werkstatt-Teams hast du ausserhalb der Öffn
 **Zutritt ausserhalb der Öffnungszeiten**
 - frei
 
-    {{< /div >}}
-  {{< /div >}}
-{{< /div >}}
+  {{< /flex-element >}}
+{{< /flex-container >}}
 
 **Hinweise**
 

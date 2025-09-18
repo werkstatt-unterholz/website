@@ -46,7 +46,7 @@ Einhell Schweiz AG gespondert. Vielen herzlichen Dank!
 
 # Themenabend am 19. September 2024
 
-{{< figure src="/images/themenabend-2024-1.jpg" class="tc" >}}
+{{< figure src="/images/themenabend-2024-2.jpg" class="tc" >}}
 
 Am 19. September 2024, 19:00 Uhr, findet wieder ein Themenabend für alle interessierten Personen in der offenen Holzwerkstatt am Lagerplatz 13, 8400 Winterthur statt. Der Eintritt ist frei, eine Spendenkasse wird bereitgestellt. Es referiert der gelernte Möbelschreiner, Gestalter im Handwerk und Vorstandsmitglied der Werkstatt Unterholz Luciano Vignoli zum Thema «Einfache Eckverbindungen».
 
@@ -84,7 +84,7 @@ Halbverdeckte Schwalbenschwanzzinken sind stabile und dekorative Holzverbindunge
 1) Im nächsten Schritt besprechen wir, wie man die Masse einer neuen Schablone berechnet, abhängig vom verwendeten Fräser und der gewünschten Grösse der Zinken.
 1) Darauf aufbauend stellen wir eine neue Frässchablone her und probieren diese aus.
 
-Datum: Wird mit Interessierten abgesprochen  
-Zeit: Entweder zweimal Donnerstagabend 18:30-21:30 oder einmal Sonntag 11:00-17:00  
-Kosten: CHF 100  
-Anmeldung: info@werkstatt-unterholz.ch
+- Datum: Wird mit Interessierten abgesprochen  
+- Zeit: Entweder zweimal Donnerstagabend 18:30-21:30 oder einmal Sonntag 11:00-17:00  
+- Kosten: CHF 100  
+- Anmeldung: info@werkstatt-unterholz.ch
