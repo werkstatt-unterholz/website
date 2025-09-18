@@ -1,6 +1,6 @@
 ---
-title: "News"
-type: "page"
+title: Neuigkeiten & Aktuelles
+type: page
 ---
 
 # Themenabend 4. September 2025

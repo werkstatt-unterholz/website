@@ -1,6 +1,4 @@
-# Ignore the built site
+.*
 /public/
-
-# Ignore build caches
 /resources/
 

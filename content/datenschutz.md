@@ -1,6 +1,6 @@
 ---
-title: "Datenschutzerklärung"
-type: "page"
+title: Datenschutzerklärung
+type: page
 ---
 
 # Datenschutzerklärung

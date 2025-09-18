@@ -7,6 +7,11 @@ theme = 'ananke'
   site_logo = "images/site-logo.png"
 
 [[menu.main]]
+  name = "Werkstatt"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
   name = "News"
   url = "/news/"
   weight = 2
@@ -14,19 +19,24 @@ theme = 'ananke'
 [[menu.main]]
   name = "Öffnungszeiten"
   url = "/kalender/"
-  weight = 3
+  weight = 4
 
 [[menu.main]]
-  name = "Verein"
-  url = "/verein/"
-  weight = 3
+  name = "Preise"
+  url = "/preise/"
+  weight = 5
 
 [[menu.main]]
   name = "Kurse"
   url = "/kurse/"
-  weight = 4
+  weight = 6
+
+[[menu.main]]
+  name = "Verein"
+  url = "/verein/"
+  weight = 7
 
 [[menu.main]]
   name = "Kontakt"
   url = "/kontakt/"
-  weight = 5
+  weight = 8

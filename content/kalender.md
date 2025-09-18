@@ -1,22 +1,24 @@
 ---
-title: "Kalender"
-type: "page"
+title: Öffnungszeiten & Kalender
+type: page
 ---
 
-Hier findest du die nötigen Informationen, um unsere Werkstatt zu besuchen.
-Im Kalender siehst du, wann die Werkstatt vermietet oder geschlossen ist sowie die Öffnungszeiten,
-an denen du ohne Vielnutzerabo eintreten kannst.
+Hier siehst du, wann die Werkstatt betreut und offen ist. Unser Werkstatt-Team hilft dir gerne bei deinen Projekten.
 
-# Öffnungszeiten
+### Reguläre Öffnungszeiten
 
-Die offene Werkstatt ist jeden Montag, Dienstag, Donnerstag von 18.00–22.00 Uhr geöffnet und betreut.
+Montag: 18:00 – 22:00 Uhr  
+Dienstag: 18:00 – 22:00 Uhr  
+Donnerstag: 18:00 – 22:00 Uhr  
 
-# Werkstattkalender
+### Hinweise
+
+Die Werkstatt ist oft auch an Feiertagen und während den Schulferien geöffnet. 
+Zum Jahreswechsel und während den Musikfestwochen bleibt die Werkstatt in der Regel geschlossen.
+
+### Live-Werkstattkalender
+
+Im Kalender siehst du die betreuten Zeiten und wann spezielle Kurse stattfinden.
 
 {{< calendar >}}
 
-[Vereinsmitglieder]({{< ref verein.md >}}) profitieren von günstigen Abonnements- und Maschinenpreisen.
-
-Auch [Nichtmitglieder]({{< ref verein.md >}}) sind in der offenen Werkstatt herzlich willkommen.
-
-Hast du Fragen und Anliegen zur Werkstattnutzung? Schreibe eine E-Mail an info@werkstatt-unterholz.ch.

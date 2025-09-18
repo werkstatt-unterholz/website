@@ -1,6 +1,6 @@
 ---
-title: "Impressum"
-type: "page"
+title: Impressum
+type: page
 ---
 
 # Impressum

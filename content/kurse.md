@@ -1,16 +1,18 @@
 ---
-title: "Kurse"
-type: "page"
+title: Kurse
+type: page
 ---
 
-In diesem Bereich findest alle Informationen zu den Kursen, die in der Werkstatt Unterholz stattfinden.
+Lerne etwas Neues! Wir bieten regelmässig Einführungs- und Projektkurse an.
+Hier lernst du den sicheren Umgang mit den Maschinen oder baust gemeinsam mit anderen ein tolles Projekt.
 
 # Kursangebot 
 
 Speziell auf unsere Werkstatt ausgerichtet bieten wir Kurse im Rahmen der Nutzung unserer Infrastruktur.
-Es handelt sich dabei vor allem um Maschinenkurse. Falls du Interesse hast und aktuell kein Kurs ausgeschrieben ist, 
-kontaktiere uns bitte über info@werkstatt-unterholz.ch. Sobald sich genügend Interessierte gemeldet haben,
-suchen wir einen passenden Termin. 
+Es handelt sich dabei vor allem um Maschinenkurse.
+Kurse finden jeweils statt, wenn sich genügend Interessierte gefunden haben.
+Zur Anmeldung benutzt du bitte unser [Kontaktformular]({{< ref "kontakt.md" >}}).
+Alle bereits geplanten Kurse findest du in unserem [Werkstattkalender]({{< ref "kalender.md" >}}). 
 
 Externe Kursleitende können sich in der Werkstatt Unterholz zu attraktiven Konditionen einmieten.
 Die Kurse werden von uns an dieser Stelle beworben.
@@ -27,7 +29,7 @@ Dieser Kurs ist Voraussetzung, wenn du als Vielnutzer-Mitglied die Werkstatt sel
 Datum: Wird mit Interessierten abgesprochen  
 Zeit: 18:30–22:00  
 Kosten: CHF 50  
-Anfragen: maschinenkurse@werkstatt-unterholz.ch
+Anmeldung: maschinenkurse@werkstatt-unterholz.ch
 
 # Zinken maschinell
 
@@ -44,7 +46,7 @@ die sich jedoch mit etwas Aufwand selbst berechnen und herstellen lässt.
 Datum: Wird mit Interessierten abgesprochen  
 Zeit: Entweder zweimal Donnerstagabend 18:30-21:30 oder einmal Sonntag 11:00-17:00  
 Kosten: CHF 100 für Vereinsmitglieder / CHF 200 für Externe  
-Anmeldung: info@werkstatt-unterholz.ch
+Anmeldung: [Kontaktformular]({{< ref "kontakt.md" >}})
 
 # Zinken von Hand
 
@@ -67,7 +69,7 @@ Folgende Punkte werden im Kurs durchgearbeitet
 Datum: Wird mit Interessierten abgesprochen  
 Zeit: Einmal 6 h oder zweimal 3 h  
 Kosten: CHF 100 für Vereinsmitglieder / CHF 200 für Externe  
-Anmeldung: info@werkstatt-unterholz.ch
+Anmeldung: [Kontaktformular]({{< ref "kontakt.md" >}})
 
 # Drechselbank
 
@@ -83,7 +85,7 @@ In diesem Kurs geht es um den sicheren Umgang mit der Drechselbank, nicht um die
 Datum: Wird mit Interessierten abgesprochen  
 Zeit: 18:30-21:30  
 Kosten: CHF 50 für Mitglieder  
-Anfragen: info@werkstatt-unterholz.ch
+Anmeldung: [Kontaktformular]({{< ref "kontakt.md" >}})
 
 # Langholz drechseln
 
@@ -101,7 +103,7 @@ Wir vermitteln Grundwissen im Drechseln, um die ersten Schritte sicher unternehm
 Datum: Wird mit Interessierten abgesprochen  
 Zeit: 18:30-21:30  
 Kosten: CHF 50 für Mitglieder / CHF 100 für Externe  
-Anmeldung: info@werkstatt-unterholz.ch
+Anmeldung: [Kontaktformular]({{< ref "kontakt.md" >}})
 
 # Querholz drechseln
 
@@ -119,4 +121,4 @@ Wir vermitteln Grundwissen im Drechseln, um die ersten Schritte sicher unternehm
 Datum: Wird mit Interessierten abgesprochen  
 Zeit: 18:30-21:30  
 Kosten: CHF 50 für Mitglieder / CHF 100 für Externe  
-Anmeldung: info@werkstatt-unterholz.ch
+Anmeldung: [Kontaktformular]({{< ref "kontakt.md" >}})
