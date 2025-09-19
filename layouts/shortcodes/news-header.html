@@ -1,0 +1,16 @@
+<hr class="mt5">
+{{ $title := .Get "title" }}
+{{ with .Params.date | time }}
+  <div class="flex flex-wrap-reverse">
+    <h1>{{ $title }}</h1>
+    <time datetime="{{ time.Format "2006-01-02T15:04:05Z07:00" . }}" class="ml-auto">
+      {{ $map := slice
+          "" "Januar" "Februar" "März" "April" "Mai" "Juni"
+          "Juli" "August" "September" "Oktober" "November" "Dezember"
+      }}
+      {{ printf "%d. %s %d" .Day (index $map .Month) .Year }}
+    </time>
+  </div>
+{{ else }}
+  <h1>{{ $title }}</h1>
+{{ end }}

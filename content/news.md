@@ -3,15 +3,21 @@ title: Neuigkeiten & Aktuelles
 type: page
 ---
 
-# Themenabend 4. September 2025
+<!---------------------->
+
+{{< news-header title="Themenabend 4. September 2025" date="2025-07-10" >}}
 
 {{< figure src="/images/themenabend-2025-3.jpg" class="tc" >}}
 
-# Themenabend am 12. Juni 2025
+<!---------------------->
+
+{{< news-header title="Themenabend am 12. Juni 2025" date="2025-05-16" >}}
 
 {{< figure src="/images/themenabend-2025-1.jpg" class="tc" >}}
 
-# Bassbaukurs 21. – 25. Juli 2025
+<!---------------------->
+
+{{< news-header title="Bassbaukurs 21. – 25. Juli 2025" date="2025-03-15" >}}
 
 {{< figure src="/images/basskurs.jpg" class="tc" >}}
 
@@ -21,7 +27,9 @@ Melde dich gleich an!
 
 [Zur Anmeldung](https://bassbaukurse.ch/21-25-juli/)
 
-# Themenabend & Mitgliederversammlung 4. April 2025
+<!---------------------->
+
+{{< news-header title="Themenabend & Mitgliederversammlung 4. April 2025" date="2025-09-03" >}}
 
 {{< figure src="/images/selbst-gemacht.jpg" class="tc" >}}
 
@@ -31,12 +39,16 @@ Unter Rahmenverbindung versteht man das miteinander verbinden von zwei oder mehr
 
 Im Anschluss sind alle Vereinsmitglieder eingeladen an der Jährlichen Versammlung teilzunehmen.
 
-# Preisanpassungen 2025
+<!---------------------->
+
+{{< news-header title="Preisanpassungen 2025" date="2024-10-03" >}}
 
 Ab 2025 gelten die neuen Preise für die Mitgliedschaft im Verein Holzwerkstatt Winterthur.
 Ausserdem fällt das Angebot «Projektabo» für Vielnutzende zukünftig weg, da es seit geraumer Zeit nicht genutzt wurde.
 
-# Infrastruktur erneuert
+<!---------------------->
+
+{{< news-header title="Infrastruktur erneuert" date="2024-10-03" >}}
 
 {{< figure src="/images/tischkreissaege.jpg" class="tc" >}}
 
@@ -44,7 +56,9 @@ Dank der grosszügigen Unterstützung der Schmidhauser Stiftung konnten wir uns 
 durch die HM-Spörri AG installieren lassen. Die Kappsäge, sowie einige Handmaschinen wurden von der
 Einhell Schweiz AG gespondert. Vielen herzlichen Dank!
 
-# Themenabend am 19. September 2024
+<!---------------------->
+
+{{< news-header title="Themenabend am 19. September 2024" date="2024-08-29" >}}
 
 {{< figure src="/images/themenabend-2024-2.jpg" class="tc" >}}
 
@@ -56,7 +70,9 @@ Wir freuen uns auf zahlreichen Besuch!
 
 ![PDF](/images/pdf.png) [Plakat](/documents/themenabend-2024-2.pdf)
 
-# Steuerbefreiung
+<!---------------------->
+
+{{< news-header title="Steuerbefreiung" date="2024-07-27" >}}
 
 {{< figure src="/images/selbst-gemacht.jpg" class="tc" >}}
 
@@ -64,7 +80,9 @@ Hurra! Der Verein Holzwerkstatt Winterthur wurde befreit von der Steuerpflicht,
 was das entgegennehmen von Spenden erleichtert.
 Vielen Dank allen beteiligten und dem Steueramt des Kantons Zürich.
 
-# Kurs - Zinken von Hand ausstemmen
+<!---------------------->
+
+{{< news-header title="Kurs - Zinken von Hand ausstemmen" date="2023-05-15" >}}
 
 {{< figure src="/images/zinken-manuell.jpg" class="tc" >}}
 
@@ -72,16 +90,21 @@ Bei uns lernst du auch die Königsdisziplin unter den Eckverbindungen mit Massiv
 
 Interessiert? - Mehr dazu bei der Kursausschreibung und Anmeldung - [Zinken von Hand]({{< ref kurse.md >}})
 
-# In drei Schritten zur eigenen Frässchablone
+<!---------------------->
+
+{{< news-header title="Neuer Kurs - Zinken herstellen" date="2023-05-02" >}}
 
 {{< figure src="/images/zinken-maschinell.jpg" class="tc" >}}
 
 **Kursauschreibung: Halbverdeckte Schwalbenschwanzzinken mit selbstgemachten Schablonen fräsen.**
 
-Halbverdeckte Schwalbenschwanzzinken sind stabile und dekorative Holzverbindungen, die sich mit der Oberfräse sehr exakt herstellen lassen. Dazu benötigt man eine Frässchablone, die sich jedoch mit etwas Aufwand selbst berechnen und herstellen lässt.
+Halbverdeckte Schwalbenschwanzzinken sind stabile und dekorative Holzverbindungen,
+die sich mit der Oberfräse sehr exakt herstellen lassen. Dazu benötigt man eine Frässchablone,
+die sich jedoch mit etwas Aufwand selbst berechnen und herstellen lässt.
 
 1) Als erstes werden wir mit einer vorhandenen Schablone Schwalbenschwanzzinken fräsen, um das Prinzip zu verstehen.
-1) Im nächsten Schritt besprechen wir, wie man die Masse einer neuen Schablone berechnet, abhängig vom verwendeten Fräser und der gewünschten Grösse der Zinken.
+1) Im nächsten Schritt besprechen wir, wie man die Masse einer neuen Schablone berechnet,
+   abhängig vom verwendeten Fräser und der gewünschten Grösse der Zinken.
 1) Darauf aufbauend stellen wir eine neue Frässchablone her und probieren diese aus.
 
 - Datum: Wird mit Interessierten abgesprochen  
