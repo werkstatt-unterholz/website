@@ -89,4 +89,7 @@ Bezahlung: Direkt beim Besuch oder via [Einzahlungsschein](../documents/rechnung
   Alle Mitglieder, die eigenständig die Werkstatt nutzen, müssen mit der Werkstatt vertraut sein und
   über entsprechende Kenntnisse verfügen. In der Regel ist der Maschinenkurs Pflicht. 
 - Nutzung der Werkstatt ist nicht möglich, falls externe Kurse stattfinden (ist im Kalender angezeigt).
-- Wer keine Mitgliedschaft löst, kann zu den regulären Öffnungszeiten einen Eintrittspreis mit den Maschinenstunden bezahlen. 
+
+### Vermietung
+
+Externe Kursleiterinnen und Kursleiter können sich zu attraktiven Konditionen einmieten.
