@@ -1,18 +1,18 @@
 <nav class="sticky top-0 w-100 z-999 bg-white pv3 ph3 ph4-ns shadow-1" role="navigation">
-  <div class="flex-ns center items-center justify-between">
-    <a href="{{ .Site.Home.RelPermalink }}" class="f3 fw2 hover-black black-90 dib no-underline pr5">
+  <div class="flex center items-center justify-between"  style="gap: 1rem">
+    <a href="{{ .Site.Home.RelPermalink }}" class="f3 fw2 hover-black black-90 dib no-underline">
       {{ with .Site.Params.site_logo }}
         <img src="{{ urls.RelURL . }}" class="mw4" alt="{{ $.Site.Title }}" />
       {{ else }}
         {{ .Site.Title }}
       {{ end }}
     </a>
-    <div class="flex-ns items-center">
+    <div class="flex items-center">
       {{ partials.Include "i18nlist.html" . }}
       {{ if .Site.Menus.main }}
-        <ul class="pl0 tr-ns">
+        <ul class="pl0 tr">
           {{ range .Site.Menus.main }}
-          <li class="list f3 f4-ns fw4 dib pr3">
+          <li class="list f3 fw4 dib pr3">
             <a class="hover-black black-90 no-underline" href="{{ .URL }}" title="{{ lang.Translate "pageTitle" . }}">
               {{ .Name }}
             </a>
