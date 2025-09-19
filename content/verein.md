@@ -1,5 +1,5 @@
 ---
-title: Verein
+title: Verein Holzwerkstatt
 type: page
 ---
 
