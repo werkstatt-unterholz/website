@@ -3,8 +3,6 @@ title: Impressum
 type: page
 ---
 
-# Impressum
-
 **Kontaktadresse**
 
 Werkstatt Unterholz  

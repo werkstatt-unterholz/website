@@ -6,6 +6,24 @@ type: page
 Wir bieten faire Mitgliedschafts-Modelle für jeden Nutzungstyp. Wähle das Paket, das am besten zu dir passt.
 
 {{< flex-container >}}
+  {{< flex-element class="bg-white-80" >}}
+
+### Eintritt für Nichtmitglieder
+
+Du möchtest nur gelegentlich an einem Holzprojekt arbeiten?
+Du bist auch als Nichtmitglied jederzeit während der Offenen Werkstatt ohne Anmeldung willkommen.
+
+**Einzeleintritt**
+- CHF 40.- pro Abend
+
+**Maschinenstunden**
+
+- Stationäre Maschinen
+  CHF 28.- pro Stunde
+- Handmaschinen
+  CHF 20.- pro Stunde
+
+  {{< /flex-element >}}
   {{< flex-element class="bg-light-yellow" >}}
 
 ### Basis-Mitglied
@@ -70,14 +88,6 @@ Als Mitglied des Vorstands oder des Werkstatt-Teams hast du ausserhalb der Öffn
 
   {{< /flex-element >}}
 {{< /flex-container >}}
-
-### Eintritt für Nichtmitglieder
-
-Du bist auch als Nichtmitglied jederzeit während der Offenen Werkstatt ohne Anmeldung willkommen.
-
-Eintrittskosten: CHF 40.- pro Abend  
-Maschinenstunden: Stationäre Maschinen 28.-, Handmaschinen 20.- pro Stunde  
-Bezahlung: Direkt beim Besuch oder via [Einzahlungsschein](../documents/rechnung.pdf).
 
 ### Hinweise
 
