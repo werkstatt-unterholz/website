@@ -1,5 +1,6 @@
 ---
 title: Mitgliedschaft & Preise
+featured_image: /images/banner-4.jpg
 type: page
 ---
 

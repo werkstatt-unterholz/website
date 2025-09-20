@@ -1,5 +1,6 @@
 ---
 title: Öffnungszeiten & Kalender
+featured_image: /images/banner-3.jpg
 type: page
 ---
 

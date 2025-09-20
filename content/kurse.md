@@ -1,5 +1,6 @@
 ---
 title: Kurse
+featured_image: /images/banner-1.jpg
 type: page
 ---
 

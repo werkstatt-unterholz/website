@@ -1,7 +1,9 @@
 ---
 title: Werkstatt Unterholz
-featured_image: /images/banner-home.jpg
+featured_image: /images/banner-1.jpg
 ---
+
+{{< figure src="/images/werkstatt.jpg" class="tc" >}}
 
 # Willkommen in der offenen Holzwerkstatt
 
@@ -27,3 +29,7 @@ Vom einfachen Zuschnitt bis zur komplexen Möbelfertigung – unsere Werkstatt i
 - Ständerbohrmaschine
 - Tauchsäge
 - Diverse Handmaschinen
+
+{{< figure src="/images/kreissaege.jpg" class="tc" >}}
+{{< figure src="/images/hobelmaschine.jpg" class="tc" >}}
+{{< figure src="/images/bandsaege.jpg" class="tc" >}}

@@ -3,8 +3,6 @@ title: Datenschutzerklärung
 type: page
 ---
 
-# Datenschutzerklärung
-
 Verantwortliche Stelle im Sinne der Datenschutzgesetze, insbesondere der EU-Datenschutzgrundverordnung (DSGVO), ist:
 
 **Luciano Vignoli, Mitglied Vorstand Verein Holzwerkstatt, 8400 Winterthur**
