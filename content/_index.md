@@ -3,8 +3,6 @@ title: Werkstatt Unterholz
 featured_image: /images/banner-5.jpg
 ---
 
-{{< figure src="/images/werkstatt.jpg" class="tc" >}}
-
 # Willkommen in der offenen Holzwerkstatt
 
 Die Werkstatt Unterholz wird als Verein ehrenamtlich geführt und ist Teil vom
@@ -16,6 +14,8 @@ Die Werkstatt Unterholz wird als Verein ehrenamtlich geführt und ist Teil vom
 {{< /flex-container >}}
 
 # Dein Ort zum Holzwerken
+
+{{< figure src="/images/werkstatt.jpg" class="tc" >}}
 
 Die Werkstatt Unterholz ist ein Treffpunkt für Leute, die in ihrer Freizeit gerne Holz bearbeiten,
 aber keine eigene Werkstatt einrichten möchten oder können. Es stehen handgeführte und stationäre
