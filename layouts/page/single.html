@@ -1,9 +1,8 @@
+{{/* IFTTT: layouts/_default/list.html */}}
 {{ define "main" }}
-  <div class="flex-l mt2 mw8 center">
-    <article class="center cf pv5 ph3 ph4-ns mw8">
-      <div class="nested-copy-line-height lh-copy f4 nested-links {{ $.Param "text_color" | compare.Default "mid-gray" }}">
-        {{ .Content }}
-      </div>
+  <div class="mt2 mw8 center cf pv5 ph3 ph4-ns nested-copy-line-height lh-copy f4 nested-links {{ $.Param "text_color" | compare.Default "mid-gray" }}">
+    <article>
+      {{ .Content }}
     </article>
   </div>
 {{ end }}

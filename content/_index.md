@@ -1,6 +1,7 @@
 ---
 title: Werkstatt Unterholz
 featured_image: /images/banner-5.jpg
+layout: single
 ---
 
 # Willkommen in der offenen Holzwerkstatt

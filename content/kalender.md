@@ -1,7 +1,6 @@
 ---
 title: Öffnungszeiten & Kalender
 featured_image: /images/banner-3.jpg
-type: page
 ---
 
 Hier siehst du, wann die Werkstatt betreut und offen ist. Unser Werkstatt-Team hilft dir gerne bei deinen Projekten.

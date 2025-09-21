@@ -1,7 +1,6 @@
 ---
 title: Kontakt & Anfahrt
 featured_image: /images/banner-7.jpg
-type: page
 ---
 
 # Kontaktformular

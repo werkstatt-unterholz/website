@@ -1,7 +1,6 @@
 ---
 title: Kurse
 featured_image: /images/banner-1.jpg
-type: page
 ---
 
 Lerne etwas Neues! Wir bieten regelmässig Einführungs- und Projektkurse an.

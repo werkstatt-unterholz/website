@@ -1,6 +1,5 @@
 ---
 title: Impressum
-type: page
 ---
 
 **Kontaktadresse**
