@@ -1,6 +1,6 @@
 ---
 title: Kontakt & Anfahrt
-featured_image: /images/banner-3.jpg
+featured_image: /images/banner-7.jpg
 type: page
 ---
 
@@ -23,4 +23,4 @@ E-Mail: info@werkstatt-unterholz.ch
 
 Besuche das [machwerk](http://machwerk-winterthur.ch) virtuell und erkunde unsere Räume.
 
-{{< figure src="/images/virtueller-rundgang.jpg" link="http://machwerk-winterthur.ch" class="tc" >}}
+{{< figure src="/images/virtueller-rundgang.jpg" link="https://machwerk-winterthur.ch/rundgang/" class="tc" >}}

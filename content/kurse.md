@@ -20,6 +20,8 @@ Die Kurse werden von uns an dieser Stelle beworben.
 
 # Sicherer Umgang mit stationären Maschinen
 
+{{< figure src="/images/maschinenkurs.jpg" class="tc" >}}
+
 Im Maschinenkurs der Werkstatt Unterholz lernst du den sicheren Umgang mit Maschinen.
 
 - Stationäre Maschinen
@@ -33,6 +35,8 @@ Kosten: CHF 50
 Anmeldung: maschinenkurse@werkstatt-unterholz.ch
 
 # Zinken maschinell
+
+{{< figure src="/images/zinken-maschinell.jpg" class="tc" >}}
 
 **Halbverdeckte Schwalbenschwanzzinken mit selbstgemachten Schablonen fräsen**
 
@@ -50,6 +54,8 @@ Kosten: CHF 100 für Vereinsmitglieder / CHF 200 für Externe
 Anmeldung: [Kontaktformular]({{< ref "kontakt.md" >}})
 
 # Zinken von Hand
+
+{{< figure src="/images/zinken-manuell.jpg" class="tc" >}}
 
 **Zinken von Hand ausstemmen**
 
@@ -73,6 +79,8 @@ Kosten: CHF 100 für Vereinsmitglieder / CHF 200 für Externe
 Anmeldung: [Kontaktformular]({{< ref "kontakt.md" >}})
 
 # Drechselbank
+
+{{< figure src="/images/drechseln.jpg" class="tc" >}}
 
 **Einführung in Drechselbank und Eisen schärfen**
 

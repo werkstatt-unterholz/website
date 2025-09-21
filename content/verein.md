@@ -1,6 +1,6 @@
 ---
 title: Verein Holzwerkstatt
-featured_image: /images/banner-2.jpg
+featured_image: /images/banner-6.jpg
 type: page
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Werkstatt Unterholz
-featured_image: /images/banner-1.jpg
+featured_image: /images/banner-5.jpg
 ---
 
 {{< figure src="/images/werkstatt.jpg" class="tc" >}}
@@ -9,6 +9,11 @@ featured_image: /images/banner-1.jpg
 
 Die Werkstatt Unterholz wird als Verein ehrenamtlich geführt und ist Teil vom
 [machwerk](http://machwerk-winterthur.ch).  
+
+{{< flex-container >}}
+{{< figure src="/images/unterholz-logo.png" height=200 >}}
+{{< figure src="/images/machwerk-logo.png" height=200 >}}
+{{< /flex-container >}}
 
 # Dein Ort zum Holzwerken
 
