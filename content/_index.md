@@ -7,7 +7,7 @@ layout: single
 # Willkommen in der offenen Holzwerkstatt
 
 Die Werkstatt Unterholz wird als Verein ehrenamtlich geführt und ist Teil vom
-[machwerk](http://machwerk-winterthur.ch).  
+[machwerk](http://machwerk-winterthur.ch) Winterthur.
 
 {{< flex-container >}}
 {{< figure src="/images/unterholz-logo.png" height=200 >}}
