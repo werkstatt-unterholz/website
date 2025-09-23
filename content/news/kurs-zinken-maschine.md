@@ -3,7 +3,7 @@ title: "Neuer Kurs - Zinken herstellen"
 date: 2023-05-02
 ---
 
-{{< figure src="/images/zinken-maschinell.jpg" class="tc" >}}
+{{< figure src="zinken-maschinell.jpg" class="tc" >}}
 
 **Kursauschreibung: Halbverdeckte Schwalbenschwanzzinken mit selbstgemachten Schablonen fräsen.**
 

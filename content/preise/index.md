@@ -1,6 +1,5 @@
 ---
 title: Mitgliedschaft & Preise
-featured_image: /images/banner-4.jpg
 ---
 
 Wir bieten faire Mitgliedschafts-Modelle für jeden Nutzungstyp. Wähle das Paket, das am besten zu dir passt.

@@ -1,5 +1,6 @@
 ---
 title: Datenschutzerklärung
+featured_image: feature.jpg
 ---
 
 Verantwortliche Stelle im Sinne der Datenschutzgesetze, insbesondere der EU-Datenschutzgrundverordnung (DSGVO), ist:

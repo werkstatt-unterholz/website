@@ -1,6 +1,5 @@
 ---
 title: Werkstatt Unterholz
-featured_image: /images/banner-5.jpg
 layout: single
 ---
 
@@ -10,13 +9,13 @@ Die Werkstatt Unterholz wird als Verein ehrenamtlich geführt und ist Teil vom
 [machwerk](http://machwerk-winterthur.ch) Winterthur.
 
 {{< flex-container >}}
-{{< figure src="/images/unterholz-logo.png" height=200 >}}
-{{< figure src="/images/machwerk-logo.png" height=200 >}}
+{{< figure src="unterholz-logo.png" height=200 >}}
+{{< figure src="machwerk-logo.png" height=200 >}}
 {{< /flex-container >}}
 
 # Dein Ort zum Holzwerken
 
-{{< figure src="/images/werkstatt.jpg" class="tc" >}}
+{{< figure src="werkstatt.jpg" class="tc" >}}
 
 Die Werkstatt Unterholz ist ein Treffpunkt für Leute, die in ihrer Freizeit gerne Holz bearbeiten,
 aber keine eigene Werkstatt einrichten möchten oder können. Es stehen handgeführte und stationäre
@@ -36,6 +35,6 @@ Vom einfachen Zuschnitt bis zur komplexen Möbelfertigung – unsere Werkstatt i
 - Tauchsäge
 - Diverse Handmaschinen
 
-{{< figure src="/images/kreissaege.jpg" class="tc" >}}
-{{< figure src="/images/hobelmaschine.jpg" class="tc" >}}
-{{< figure src="/images/bandsaege.jpg" class="tc" >}}
+{{< figure src="kreissaege.jpg" class="tc" >}}
+{{< figure src="hobelmaschine.jpg" class="tc" >}}
+{{< figure src="bandsaege.jpg" class="tc" >}}

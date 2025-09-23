@@ -1,6 +1,5 @@
 ---
 title: Verein Holzwerkstatt
-featured_image: /images/banner-6.jpg
 ---
 
 Ob du Profi bist oder Laie, dein Wissen weitergeben oder einfach dein Projekt realisieren möchtest,
@@ -34,10 +33,10 @@ Steuerbefreit unter Register Nummer: J000246404
 
 # Dokumente
 
-![PDF](/images/pdf.png) [Flyer Werkstatt Unterholz](/documents/unterholz-flyer.pdf)  
-![PDF](/images/pdf.png) [Einzahlungsschein](/documents/unterholz-rechnung.pdf)  
-![PDF](/images/pdf.png) [Formular Mitglied werden](/documents/unterholz-anmeldung.pdf)  
-![PDF](/images/pdf.png) [Nutzungsbedingungen](/documents/unterholz-nutzungsbedingungen.pdf)  
-![PDF](/images/pdf.png) [Werkstatt-Rapport](/documents/unterholz-dauerrapport.pdf)  
-![PDF](/images/pdf.png) [Preise Maschinenstunden und Twint Code](/documents/unterholz-preisliste.pdf)  
-![PDF](/images/pdf.png) [Werkstattordnung](/documents/unterholz-werkstattordnung.pdf)  
+![PDF](/images/pdf.png) [Flyer Werkstatt Unterholz](unterholz-flyer.pdf)  
+![PDF](/images/pdf.png) [Einzahlungsschein](unterholz-rechnung.pdf)  
+![PDF](/images/pdf.png) [Formular Mitglied werden](unterholz-anmeldung.pdf)  
+![PDF](/images/pdf.png) [Nutzungsbedingungen](unterholz-nutzungsbedingungen.pdf)  
+![PDF](/images/pdf.png) [Werkstatt-Rapport](unterholz-dauerrapport.pdf)  
+![PDF](/images/pdf.png) [Preise Maschinenstunden und Twint Code](unterholz-preisliste.pdf)  
+![PDF](/images/pdf.png) [Werkstattordnung](unterholz-werkstattordnung.pdf)  

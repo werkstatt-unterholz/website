@@ -1,5 +1,6 @@
 ---
 title: Impressum
+featured_image: feature.jpg
 ---
 
 **Kontaktadresse**

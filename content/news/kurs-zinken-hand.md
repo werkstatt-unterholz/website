@@ -3,7 +3,7 @@ title: "Kurs - Zinken von Hand ausstemmen"
 date: 2023-05-15
 ---
 
-{{< figure src="/images/zinken-manuell.jpg" class="tc" >}}
+{{< figure src="zinken-manuell.jpg" class="tc" >}}
 
 Bei uns lernst du auch die Königsdisziplin unter den Eckverbindungen mit Massivholz.
 

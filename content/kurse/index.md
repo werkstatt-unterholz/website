@@ -1,6 +1,5 @@
 ---
 title: Kurse
-featured_image: /images/banner-1.jpg
 ---
 
 Lerne etwas Neues! Wir bieten regelmässig Einführungs- und Projektkurse an.
@@ -19,7 +18,7 @@ Die Kurse werden von uns an dieser Stelle beworben.
 
 # Sicherer Umgang mit stationären Maschinen
 
-{{< figure src="/images/maschinenkurs.jpg" class="tc" >}}
+{{< figure src="maschinenkurs.jpg" class="tc" >}}
 
 Im Maschinenkurs der Werkstatt Unterholz lernst du den sicheren Umgang mit Maschinen.
 
@@ -35,7 +34,7 @@ Anmeldung: maschinenkurse@werkstatt-unterholz.ch
 
 # Zinken maschinell
 
-{{< figure src="/images/zinken-maschinell.jpg" class="tc" >}}
+{{< figure src="zinken-maschinell.jpg" class="tc" >}}
 
 **Halbverdeckte Schwalbenschwanzzinken mit selbstgemachten Schablonen fräsen**
 
@@ -54,7 +53,7 @@ Anmeldung: [Kontaktformular]({{< ref "kontakt.md" >}})
 
 # Zinken von Hand
 
-{{< figure src="/images/zinken-manuell.jpg" class="tc" >}}
+{{< figure src="zinken-manuell.jpg" class="tc" >}}
 
 **Zinken von Hand ausstemmen**
 
@@ -79,7 +78,7 @@ Anmeldung: [Kontaktformular]({{< ref "kontakt.md" >}})
 
 # Drechselbank
 
-{{< figure src="/images/drechseln.jpg" class="tc" >}}
+{{< figure src="drechseln.jpg" class="tc" >}}
 
 **Einführung in Drechselbank und Eisen schärfen**
 
