@@ -30,7 +30,7 @@ Dieser Kurs ist Voraussetzung, wenn du als Vielnutzer-Mitglied die Werkstatt sel
 Datum: Wird mit Interessierten abgesprochen  
 Zeit: 18:30–22:00  
 Kosten: CHF 50  
-Anmeldung: maschinenkurse@werkstatt-unterholz.ch
+Anmeldung: [Kontaktformular]({{< ref "kontakt.md" >}}?template=maschinenkurs)
 
 # Zinken maschinell
 
@@ -49,7 +49,7 @@ die sich jedoch mit etwas Aufwand selbst berechnen und herstellen lässt.
 Datum: Wird mit Interessierten abgesprochen  
 Zeit: Entweder zweimal Donnerstagabend 18:30-21:30 oder einmal Sonntag 11:00-17:00  
 Kosten: CHF 100 für Vereinsmitglieder / CHF 200 für Externe  
-Anmeldung: [Kontaktformular]({{< ref "kontakt.md" >}})
+Anmeldung: [Kontaktformular]({{< ref "kontakt.md" >}}?template=zinken-maschinell)
 
 # Zinken von Hand
 
@@ -74,7 +74,7 @@ Folgende Punkte werden im Kurs durchgearbeitet
 Datum: Wird mit Interessierten abgesprochen  
 Zeit: Einmal 6 h oder zweimal 3 h  
 Kosten: CHF 100 für Vereinsmitglieder / CHF 200 für Externe  
-Anmeldung: [Kontaktformular]({{< ref "kontakt.md" >}})
+Anmeldung: [Kontaktformular]({{< ref "kontakt.md" >}}?template=zinken-manuell)
 
 # Drechselbank
 
@@ -92,7 +92,7 @@ In diesem Kurs geht es um den sicheren Umgang mit der Drechselbank, nicht um die
 Datum: Wird mit Interessierten abgesprochen  
 Zeit: 18:30-21:30  
 Kosten: CHF 50 für Mitglieder  
-Anmeldung: [Kontaktformular]({{< ref "kontakt.md" >}})
+Anmeldung: [Kontaktformular]({{< ref "kontakt.md" >}}?template=drechselbank)
 
 # Langholz drechseln
 
@@ -110,7 +110,7 @@ Wir vermitteln Grundwissen im Drechseln, um die ersten Schritte sicher unternehm
 Datum: Wird mit Interessierten abgesprochen  
 Zeit: 18:30-21:30  
 Kosten: CHF 50 für Mitglieder / CHF 100 für Externe  
-Anmeldung: [Kontaktformular]({{< ref "kontakt.md" >}})
+Anmeldung: [Kontaktformular]({{< ref "kontakt.md" >}}?template=langholz)
 
 # Querholz drechseln
 
@@ -128,4 +128,4 @@ Wir vermitteln Grundwissen im Drechseln, um die ersten Schritte sicher unternehm
 Datum: Wird mit Interessierten abgesprochen  
 Zeit: 18:30-21:30  
 Kosten: CHF 50 für Mitglieder / CHF 100 für Externe  
-Anmeldung: [Kontaktformular]({{< ref "kontakt.md" >}})
+Anmeldung: [Kontaktformular]({{< ref "kontakt.md" >}}?template=querholz)

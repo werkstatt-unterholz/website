@@ -51,11 +51,17 @@
 
     const selection = document.getElementById('template');
     const textarea = document.getElementById('message');
-
     selection.addEventListener('change', function() {
       textarea.value = map[selection.value] || '';
       textarea.focus();
     });
+
+    const urlParams = new URLSearchParams(window.location.search);
+    const template = urlParams.get('template');
+    if (template && map.hasOwnProperty(template)) {
+      selection.value = template;
+      selection.dispatchEvent(new Event('change'));
+    }
 
   });
 </script>
