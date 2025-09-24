@@ -1,10 +1,8 @@
-<nav class="sticky top-0 w-100 z-999 bg-white pv3 ph3 ph4-ns shadow-1" role="navigation">
-  <div class="flex center items-center justify-between"  style="gap: 1rem">
-    <a href="{{ .Site.Home.RelPermalink }}" class="f3 fw2 hover-black black-90 dib no-underline">
+<nav class="sticky top-0 w-100 z-999 bg-white pv2 pv3-l ph3 ph4-l shadow-1" role="navigation">
+  <div class="flex items-center justify-between">
+    <a href="{{ .Site.Home.RelPermalink }}">
       {{ with .Site.Params.site_logo }}
-        <img src="{{ urls.RelURL . }}" class="mw4" alt="{{ $.Site.Title }}" />
-      {{ else }}
-        {{ .Site.Title }}
+        <img src="{{ urls.RelURL . }}" class="mw4 db" alt="{{ $.Site.Title }}" />
       {{ end }}
     </a>
     <div class="flex items-center">
@@ -12,7 +10,7 @@
       {{ if .Site.Menus.main }}
         <ul class="pl0 tr">
           {{ range .Site.Menus.main }}
-          <li class="list f3 fw4 dib pr3">
+          <li class="list f3 fw4 dib pl3">
             <a class="hover-black black-90 no-underline" href="{{ .URL }}" title="{{ lang.Translate "pageTitle" . }}">
               {{ .Name }}
             </a>
