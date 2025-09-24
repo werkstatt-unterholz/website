@@ -1,4 +1,9 @@
-<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<style>
+  #submit:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+  }
+</style>
 
 <form action="https://formspree.io/f/movnoooz" method="POST" class="w-100 center">
 
@@ -30,11 +35,28 @@
   </div>
 
   <div class="flex justify-between flex-wrap items-end">
-    <div class="g-recaptcha" data-sitekey="6LcZY9MrAAAAAOXIL1_cdR2mupbDdXR72XR9Bt--"></div>
-    <button type="submit" class="f6 grow no-underline br-pill ph3 pv2 mb2 dib white bg-near-black">Senden</button>
+    <div class="g-recaptcha"
+      data-sitekey="6LcZY9MrAAAAAOXIL1_cdR2mupbDdXR72XR9Bt--"
+      data-callback="onRecaptchaSuccess"
+      data-expired-callback="onRecaptchaExpired"
+    ></div>
+    <button type="submit" id="submit" class="f6 grow no-underline br-pill ph3 pv2 mb2 dib white bg-near-black" disabled>
+      Senden
+    </button>
   </div>
 
 </form>
+
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+<script>
+  function onRecaptchaSuccess() {
+    document.getElementById('submit').disabled = false;
+  }
+  function onRecaptchaExpired() {
+    document.getElementById('submit').disabled = true;
+  }
+</script>
 
 <script>
   document.addEventListener('DOMContentLoaded', function() {
