@@ -1,3 +1,5 @@
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
 <form action="https://formspree.io/f/movnoooz" method="POST" class="w-100 center">
 
   <div class="mb3">
@@ -27,7 +29,8 @@
     <textarea id="message" name="message" class="input-reset ba b--black-20 pa2 mb2 db w-100" rows="10" required></textarea>
   </div>
 
-  <div class="tc">
+  <div class="flex justify-between flex-wrap items-end">
+    <div class="g-recaptcha" data-sitekey="6LcZY9MrAAAAAOXIL1_cdR2mupbDdXR72XR9Bt--"></div>
     <button type="submit" class="f6 grow no-underline br-pill ph3 pv2 mb2 dib white bg-near-black">Senden</button>
   </div>
 
