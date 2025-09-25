@@ -151,18 +151,22 @@
         if (result.status === 'success') {
           showToast(result.message, 'success');
           form.reset();
+          grecaptcha.reset();
+          submitButton.disabled = true;
         } else {
           showToast(result.message, 'error');
+          grecaptcha.reset();
+          submitButton.disabled = true;
         }
       })
       .catch(error => {
+        // Netzwerkfehler (CORS, 404, Server nicht erreichbar)
         console.error('Fetch-Fehler:', error);
-        showToast('Ein Netzwerkfehler ist aufgetreten.', 'error');
+        showToast('Ein Netzwerkfehler ist aufgetreten. Bitte versuchen Sie es später erneut.', 'error');
+        submitButton.disabled = false; 
       })
       .finally(() => {
-        submitButton.disabled = true;
         submitButton.textContent = 'Senden';
-        grecaptcha.reset();
       });
     });
 
