@@ -1,11 +1,42 @@
 <style>
+
   #submit:disabled {
     opacity: 0.3;
     cursor: not-allowed;
   }
+
+
+  #toast-notification {
+    visibility: hidden;
+    opacity: 0;
+    min-width: 250px;
+    position: fixed;
+    z-index: 1000;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 30px;
+    padding: 16px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+    transition: visibility 0s 0.5s, opacity 0.5s linear;
+  }
+  #toast-notification.show {
+    visibility: visible;
+    opacity: 1;
+    transition: visibility 0s, opacity 0.5s linear;
+  }
+  #toast-notification.success {
+    background-color: #4CAF50;
+    color: white;
+  }
+  #toast-notification.error {
+    background-color: #f44336;
+    color: white;
+  }
 </style>
 
-<form action="https://formspree.io/f/movnoooz" method="POST" class="w-100 center">
+<form class="w-100 center mw7" id="contact-form">
 
   <div class="mb3">
     <label for="name" class="f6 b db mb2">Name <span class="normal black-60">(erforderlich)</span></label>
@@ -38,14 +69,16 @@
     <div class="g-recaptcha mb2"
       data-sitekey="6LcZY9MrAAAAAOXIL1_cdR2mupbDdXR72XR9Bt--"
       data-callback="onRecaptchaSuccess"
-      data-expired-callback="onRecaptchaExpired"
-    ></div>
+      data-expired-callback="onRecaptchaExpired">
+    </div>
     <button type="submit" id="submit" class="f6 grow no-underline br-pill ph3 pv2 mb2 dib white bg-near-black" disabled>
       Senden
     </button>
   </div>
 
 </form>
+
+<div id="toast-notification"></div>
 
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
@@ -60,7 +93,6 @@
 
 <script>
   document.addEventListener('DOMContentLoaded', function() {
-    
     const map = {
       'mitgliedschaft': 'Hallo, ich möchte Mitglied werden in der Werstatt Unterholz.\n\nIch habe die Informationen auf der entsprechenden Seite gelesen, habe aber noch eine spezifisch Frage:\n\n',
       'öffnungszeiten': 'Hallo, ich habe die Informationen bezüglich Öffnungszeiten auf der entsprechenden Seite gelesen, habe aber noch eine spezifisch Frage:\n\n',
@@ -71,11 +103,15 @@
       'drechselbank': 'Hallo, ich interessiere mich für den Kurs Drechselbank.\n\nWann findet dieser das nächste Mal statt?',
       'langholz': 'Hallo, ich interessiere mich für den Kurs Langholz drechseln.\n\nWann findet dieser das nächste Mal statt?',
       'querholz': 'Hallo, ich interessiere mich für den Kurs Querholz drechseln.\n\nWann findet dieser das nächste Mal statt?',
-      '': '' // This clears the message box if they select "Vorlage auswählen..."
+      '': ''
     };
 
     const selection = document.getElementById('template');
     const textarea = document.getElementById('message');
+    const form = document.getElementById('contact-form');
+    const submitButton = document.getElementById('submit');
+    const toast = document.getElementById('toast-notification');
+
     selection.addEventListener('change', function() {
       textarea.value = map[selection.value] || '';
       textarea.focus();
@@ -86,6 +122,58 @@
     if (template && map.hasOwnProperty(template)) {
       selection.value = template;
       selection.dispatchEvent(new Event('change'));
+    }
+
+    form.addEventListener('submit', function(event) {
+      event.preventDefault();
+
+      submitButton.disabled = true;
+      submitButton.textContent = 'Sende...';
+
+      const data = {
+        name: document.getElementById('name').value,
+        email: document.getElementById('email').value,
+        template: document.getElementById('template').value,
+        message: document.getElementById('message').value,
+        'g-recaptcha-response': grecaptcha.getResponse()
+      };
+
+      const backendURL = 'https://csigg.com/werkstatt-unterholz.ch/form-handler.php';
+      fetch(backendURL, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(data)
+      })
+      .then(response => response.json())
+      .then(result => {
+        if (result.status === 'success') {
+          showToast(result.message, 'success');
+          form.reset();
+        } else {
+          showToast(result.message, 'error');
+        }
+      })
+      .catch(error => {
+        console.error('Fetch-Fehler:', error);
+        showToast('Ein Netzwerkfehler ist aufgetreten.', 'error');
+      })
+      .finally(() => {
+        submitButton.disabled = true;
+        submitButton.textContent = 'Senden';
+        grecaptcha.reset();
+      });
+    });
+
+    function showToast(message, type) {
+      toast.textContent = message;
+      toast.className = type;
+      toast.classList.add('show');
+
+      setTimeout(function() {
+        toast.classList.remove('show');
+      }, 4000);
     }
 
   });
